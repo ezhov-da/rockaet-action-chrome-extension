@@ -1,0 +1,23 @@
+{
+  "name": "Own tools",
+  "version": "0.0.1",
+  "description": "Tools",
+  "manifest_version": 3,
+  "author": "ezhov-da",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Tools",
+    "default_icon": "tools_50x50.png"
+  },
+  "host_permissions": [
+    "http://localhost/*"
+  ],
+  "optional_host_permissions":[
+    "https://*/*",
+    "http://*/*"
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html"
+}

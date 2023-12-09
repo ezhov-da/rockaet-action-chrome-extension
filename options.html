@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Own tools</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+<section class="section">
+    <div class="container">
+
+        <h1 class="title">Options</h1>
+
+        <div class="field">
+            <label class="label">Rocket Action URL</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="URL" id="raUrl">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Rocket Action API KEY</label>
+            <div class="control">
+                <input class="input" type="password" placeholder="API KEY" id="raApiKey">
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link" id="saveOptions">Save</button>
+            </div>
+        </div>
+        <div class="field is-grouped">
+            <div class="control">
+                <a href="/index.html">Home</a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<script src="storage.js"></script>
+<script src="options.js"></script>
+</body>
+</html>

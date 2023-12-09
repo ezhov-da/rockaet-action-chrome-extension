@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Own tools</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+
+<section class="section">
+    <div class="field">
+        <label class="label">Request message</label>
+        <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="field is-grouped">
+        <div class="control">
+            <button id="testCall" class="button is-link">Send</button>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Response message</label>
+        <div class="control">
+            <textarea id="responseTextArea" class="textarea" placeholder="Textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="field is-grouped">
+        <div class="control">
+            <button class="button is-link">Copy response to clipboard</button>
+        </div>
+    </div>
+
+    <a href="/options.html">Options</a>
+</section>
+
+<script src="storage.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
