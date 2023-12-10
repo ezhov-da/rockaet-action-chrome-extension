@@ -8,6 +8,11 @@
 <body>
 <section class="section">
     <div class="container">
+        <div class="field is-grouped">
+            <div class="control">
+                <a href="/index.html">Home</a>
+            </div>
+        </div>
 
         <h1 class="title">Options</h1>
 
@@ -36,7 +41,22 @@
             </div>
         </div>
 
+        <h2 class="title">Actions</h2>
 
+        <div class="field">
+            <label class="label">Action ID</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Action ID" id="raActionId">
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link" id="addAction">Add action for execute</button>
+            </div>
+        </div>
+
+        <div id="actions"></div>
     </div>
 </section>
 
